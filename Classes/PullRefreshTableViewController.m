@@ -87,7 +87,7 @@
     self.refreshLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 320, REFRESH_HEADER_HEIGHT)];
     self.refreshLabel.backgroundColor = [UIColor clearColor];
     self.refreshLabel.font = [UIFont boldSystemFontOfSize:12.0];
-    self.refreshLabel.textAlignment = UITextAlignmentCenter;
+    self.refreshLabel.textAlignment = NSTextAlignmentCenter;
 
     self.refreshArrow = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"arrow.png"]];
     self.refreshArrow.frame = CGRectMake(floorf((REFRESH_HEADER_HEIGHT - 27) / 2),
